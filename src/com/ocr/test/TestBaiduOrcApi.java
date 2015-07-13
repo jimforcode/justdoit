@@ -20,7 +20,7 @@ public class TestBaiduOrcApi {
 	public static void main(String[] args) {
 		//百度ocr图片文字识别接口实例
 		//参考http://apistore.baidu.com/apiworks/servicedetail/146.html 百度ocr官方文档
-		String path = "F:\\picture\\001.jpg";
+		String path = "F:\\picture\\1.jpg";
 		String param = "fromdevice=pc&clientip=10.10.10.0&detecttype=LocateRecognize&languagetype=CHN_ENG&imagetype=2";
 		String httpArg2 = "fromdevice=pc&clientip=10.10.10.0&detecttype=LocateRecognize&languagetype=CHN_ENG&imagetype=1&image=";
 		httpArg2 += ImageUtil.ToBase64String(path);
